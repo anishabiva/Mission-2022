@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+.top {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 130px;      
+}
+.top-left{
+    height: 90vh;
+    width: 50%;
+}
+.top-left p {
+    color: black;
+    text-align: justify;
+    padding: 20px;
+    font-size: 21px;
+    margin-top: -40px;
+}
+.top-left a,
+.develop-right a{
+    text-decoration: none;
+    font-size: 25px;
+    background-color: orangered;
+    color: whitesmoke;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.top-left h6 {
+    color: black;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.top-left-heading{
+    display: flex;
+}
+.top-left-heading h1 {
+    font-size: 50px;
+    margin-top: 0;
+    color: black;
+}
+.top-left-heading h2 {
+    font-size: 40px;
+    color: orange;
+    margin-top: -30px;
+}
+.vl {
+    border-left: 3px solid red;
+    height: 110px;
+    padding-right: 15px;
+}
+.top-right{
+    height: 90vh;
+    width: 50%;
+    background-image: url(images/shapes/shape-5.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: top;
+}
+.top-right img {
+    height: 80%;
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-top: -70px;
+}
+
+/* secton-mission start */
+.mission{
+    height: 90vh;
+    width: 80%;
+    margin: 0 auto;
+}
+.mission h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 4, 243);
+    margin-bottom: 50px;
+}
+.mission h1 span{
+    color:rgba(248, 153, 10, 0.938);
+}
+.mission-box{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+#box{
+    height: 300px;
+    width: 90%;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.048) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.box-one{
+    background-color: gray;
+}
+.box-two{
+    background-color: rgba(145, 146, 165, 0.527);
+}
+.box-three{
+    background-color: pink;
+}
+#box img{
+    height: 40%;
+}
+#box h2 {
+    color: rgba(222, 135, 150, 0.849);
+    font-size: 24px;
+}
+#box p {
+    color: initial;
+    font-size: 17px;
+    text-align: justify;
+}
+
+/* develop and global section start */
+.develop,
+.global{
+    height: 80vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.develop-left{
+    height: 90%;
+    width: 40%;
+}
+.develop-left img{
+    height: 100%;
+    width: 100%;
+}
+.develop-right{
+    height: 90%;
+    width: 60%;
+}
+.develop-right h1{
+    font-size: 40px;
+    color: black;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.develop-right h2{
+    font-size: 30px;
+    color: blue;
+    margin-left: 40px;
+}
+.develop-right p{
+    margin-left: 20px;
+    padding:20px;
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+}
+
+/* subscribe section start */
+.subscribe {
+    height: 40vh;
+    width: 80%;
+    margin: 50px auto 0px;
+    text-align: center;
+    background-color: rgba(245, 234, 234, 0.938);
+}
+.subscribe h1 {
+    font-size: 40px;
+    color: orangered;
+    padding-top: 30px;
+}
+.subcribe-btn input{
+    height: 30px;
+    width: 320px;
+    overflow: hidden;
+    outline: none;
+    font-size: 18px;
+    background-color: rgb(211, 208, 203);
+    color: rgb(51, 42, 42);
+    border: 1px solid rgb(97, 97, 50);
+    padding: 5px;
+}
+.subcribe-btn button {
+    height: 40px;
+    width: 100px;
+    overflow: hidden;
+    outline: none;
+    font-size: 22px;
+    background-color: rgb(45 137 90);
+    color: rgb(219 206 206);
+    border: 1px solid rgb(97, 97, 50);
+    padding: 5px;
+}
+
+/* footer section start */
+.footer{
+    height: 160px;
+    width: 100%;
+    background-color: rgb(39, 38, 38);
+    text-align: center;
+    font-family: 'Mrs Saint Delafield', cursive;
+}
+.footer h1 {
+    padding-top: 20px;
+    color: yellow;
+}
+.footer h1 span{
+    color: white;
+}
+.footer p{
+    color: pink;
+}
+.footer h5{
+    color: gray;
+}
